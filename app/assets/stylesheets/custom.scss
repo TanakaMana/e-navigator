@@ -1,0 +1,26 @@
+h2 {
+  font-weight: bold !important;
+}
+label {
+  font-size: 1.1em;
+}
+
+.navbar {
+  padding-top: 15px;
+  padding-left: 15px;
+  .site-title {
+    color: #007bff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    font-size: 1.1em;
+  }
+  .nav-title {
+    color: rgba(0,0,0,0.5);
+        padding-right: .5rem;
+    padding-left: .5rem;
+    &:hover {
+      text-decoration: none;
+      color: #212529;
+    }
+  }
+}
