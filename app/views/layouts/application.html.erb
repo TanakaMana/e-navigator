@@ -6,18 +6,13 @@
 
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
-
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
   </head>
 
   <body>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
-    <div id="wrap">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-faded">
+        <%= link_to 'e-Navigator', root_path, class: "site-title" %>
+      </nav>
       <%= yield %>
     </div>
   </body>
